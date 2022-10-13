@@ -1,3 +1,4 @@
+import Button from '@components/Button'
 import { css } from '@emotion/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
@@ -62,6 +63,8 @@ const Home: NextPage = () => {
         >
           Add Jacket
         </button>
+
+        <Button onClick={handleClick}>Add Jacket2</Button>
 
         <div>
           <p>Product List</p>
